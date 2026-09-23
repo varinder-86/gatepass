@@ -349,3 +349,10 @@ D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\obj\Debug\net8.0\Gatepaswebapi.pdb
 D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\obj\Debug\net8.0\Gatepaswebapi.genruntimeconfig.cache
 D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\obj\Debug\net8.0\ref\Gatepaswebapi.dll
 D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\obj\Debug\net8.0\swae.build.ex.cache
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\bin\Debug\net8.0\publish\web.config
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\bin\Debug\net8.0\publish\appsettings.Development.json
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\bin\Debug\net8.0\publish\appsettings.json
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\bin\Debug\net8.0\publish\Gatepaswebapi.deps.json
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\bin\Debug\net8.0\publish\Gatepaswebapi.runtimeconfig.json
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\bin\Debug\net8.0\publish\Gatepaswebapi.staticwebassets.endpoints.json
+D:\MY API AND MVC\Gatepaswebapi\Gatepaswebapi\obj\Debug\net8.0\Gatepaswebapi.sourcelink.json

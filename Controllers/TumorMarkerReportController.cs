@@ -93,7 +93,7 @@ namespace Gatepaswebapi.Controllers
             const string patientSql = "SELECT * FROM PATOOLSLIB.ta101 WHERE case_no = ?";
             const string bedSql = "SELECT * FROM PATOOLSLIB.ma104 WHERE case_no = ?";
             const string requisitionSql = @"SELECT * FROM RISLIB.RREQUISITN
-                                            WHERE caseno = ? AND REQNSTAT = ? AND MODALITYCD = ?
+                                            WHERE caseno = ?  AND MODALITYCD = ? AND REQNSTAT = ?
                                             ORDER BY REQNDT DESC";
             const string referringDoctorSql = @"SELECT * FROM RISLIB.RREQUISITN
                                                 WHERE CASENO = ? AND REQNNO = ?
@@ -110,7 +110,7 @@ namespace Gatepaswebapi.Controllers
 
                 var patients = await ReadRowsAsync(connection, patientSql, caseNo);
                 var beds = await ReadRowsAsync(connection, bedSql, caseNo);
-                var requisitions = await ReadRowsAsync(connection, requisitionSql, caseNo, modalityCode,REQNSTAT);
+                var requisitions = await ReadRowsAsync(connection, requisitionSql, caseNo, modalityCode, REQNSTAT);
                 var reportRequisitions = new List<object>();
 
                 foreach (var requisition in requisitions)
@@ -150,6 +150,7 @@ namespace Gatepaswebapi.Controllers
                 {
                     caseNo,
                     modalityCode,
+                   REQNSTAT,
                     patient = patients,
                     bedWard = beds,
                     requisitionCount = reportRequisitions.Count,
