@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Protected Page";
+}
+
+<h2>Protected Page</h2>
+<p>Welcome! You are logged in.</p>
+
+<p>Your Token: <strong>@ViewBag.Token</strong></p>
+
+<form method="post" asp-controller="Home" asp-action="Logout">
+    <button type="submit">Logout</button>
+</form>
